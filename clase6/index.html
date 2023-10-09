@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+
+    <form action="calificacion.php" method="get">
+        <label for="nombre">Nombre del Alumno:</label>
+        <input type="text" name="nombre" required>
+        <br>
+        <br>
+
+        <label for="nota">Nota Numérica:</label>
+        <input type="number" name="nota" min="0" max="10" required>
+        <br>
+        <br>
+
+        <input type="submit" value="Calcular Calificacion">
+    </form>
+</body>
+</html>
