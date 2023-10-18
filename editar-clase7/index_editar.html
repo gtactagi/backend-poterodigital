@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario Edición de Producto</title>
+    <link rel="stylesheet" href="style_editar.css">
+  </head>
+  <body>
+    <section class="form-login">
+      <h5>Formulario Edición de Producto</h5>
+      <form action="editar_producto.php" method="post">
+        <input class="controls" type="text" name="nombre" placeholder="Nombre del Producto">
+        <input class="controls" type="number" name="precio" placeholder="Precio">
+        <textarea class="controls" name="descripcion" placeholder="Descripción del Producto"></textarea>
+        <input class="controls" type="text" name="marca" placeholder="Marca">
+        <input class="controls" type="number" name="stock" placeholder="Stock Disponible">
+        <input class="buttons" type="submit" value="Actualizar Producto">
+      </form>
+    </section>
+  </body>
+</html>
