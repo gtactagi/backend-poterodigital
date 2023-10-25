@@ -1,0 +1,39 @@
+a)Se requiere confeccionar una base de datos con los lugares de residencia de una empresa con la siguiente información: 
+
+●Empleado:legajo,DNI,nombre,fecha de nacimiento,teléfono y salario. 
+●Un empleado ha nacido en una sola localidad (código y nombre localidad). 
+●Cada localidad pertenece a una única provincia(código y nombre provincia).
+●Cada provincia pertenece a una única región(código y nombre de región) del país.
+
+Las entidades serian:
+
+1.-Empleado, cuyos campos/atributos serian legajo, DNI,nombre,fecha de nacimiento,telefono y salario.
+
+2.-Localidad, cuyos atributos serian codigo y nombre de la misma.
+
+3.-Provincia, cuyos atributos son codigo y nombre de provincia.
+
+4.-Region, codigo y nombre de region
+
+
+Empleado tiene una relación de "muchos a 1" con Localidad (varios empleados pueden haber nacido en la misma localidad, pero un empleado solo tiene una localidad de nacimiento).
+Localidad tiene una relación de "muchos a 1" con Provincia (varias localidades pueden pertenecer a la misma provincia).
+Provincia tiene una relación de "muchos a 1" con Región (varias provincias pueden pertenecer a la misma región).
+
+b)Se requiere confeccionar una base de datos para representar el organigrama de una empresa: 
+●Un empleado(legajo empleado,DNI,nombre,teléfono y salario)pertenece a un único departamento(código de departamento,nombre y localización)y en un departamento hay varios empleados. 
+●Solo puede haber un jefe de departamento.Y un jefe puede tener varios empleados a cargo o ninguno.
+
+Las entidades serian:
+
+1.-Empleado, cuyos campos/atributos serian legajo empleado, DNI,nombre,telefono y salario.
+
+2.-Departamento, cuyos atributos serian código de departamento,nombre,localización y Jefe.
+
+la relacion seria uno a muchos tanto de empleados a departamento o empleados jefes
+la relacion jefe departamento si bien es 1 a 1.
+Relacionaria IDempleado(primary key) con codigodepartamento(foranea)
+
+
+
+
