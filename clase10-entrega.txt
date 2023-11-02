@@ -1,0 +1,30 @@
+ejercicio 1:
+SELECT nombre FROM usuario;
+
+ejercicio 2:
+SELECT telefono FROM usuario
+WHERE saldo <= 300;
+
+ejercicio3:
+SELECT * FROM usuario WHERE nivel==2
+
+ejercicio4:
+SELECT nombre, telefono FROM usuario
+WHERE marca IN ('NOKIA', 'BLACKBERRY', 'SONY');
+
+ejercicio5:
+SELECT nombre, telefono FROM usuario
+WHERE marca IN ('LG', 'SAMSUNG', 'MOTOROLA');
+
+ejercicio6:
+SELECT email FROM usuario
+WHERE email LIKE '%@gmail.com';
+
+ejercicio7:
+SELECT MAX(saldo) FROM usuario
+WHERE YEAR(fechaNacimiento) > 1992;
+
+
+
+
+
